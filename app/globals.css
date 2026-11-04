@@ -170,7 +170,7 @@
   --museum-card: #fffdf8;
   --museum-line: #e7e0d3;
   --museum-muted: #79796f;
-  --museum-serif: "Noto Naskh Arabic", "Geeza Pro", Georgia, serif;
+  --museum-serif: "Amiri", "Noto Naskh Arabic", "Geeza Pro", Georgia, serif;
   --museum-sans: "IBM Plex Sans Arabic", "Noto Sans Arabic", Tahoma, Arial, sans-serif;
 }
 
@@ -352,7 +352,7 @@ input {
   z-index: -1;
   inset: 0;
   background:
-    linear-gradient(270deg, rgba(24, 33, 28, 0.88) 0%, rgba(24, 33, 28, 0.64) 38%, rgba(24, 33, 28, 0.08) 100%),
+    linear-gradient(270deg, rgba(24, 33, 28, 1) 0%, rgba(24, 33, 28, 1) 55%, rgba(24, 33, 28, 0.88) 68%, rgba(24, 33, 28, 0.3) 86%, rgba(24, 33, 28, 0.08) 100%),
     linear-gradient(0deg, rgba(20, 28, 24, 0.22), transparent 42%);
 }
 
@@ -1265,7 +1265,7 @@ input {
 
   .hero-overlay {
     background:
-      linear-gradient(270deg, rgba(24, 33, 28, 0.88) 0%, rgba(24, 33, 28, 0.58) 60%, rgba(24, 33, 28, 0.25) 100%),
+      linear-gradient(270deg, rgba(24, 33, 28, 0.98) 0%, rgba(24, 33, 28, 0.9) 58%, rgba(24, 33, 28, 0.28) 100%),
       linear-gradient(0deg, rgba(20, 28, 24, 0.28), transparent 48%);
   }
 
